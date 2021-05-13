@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_apollo.mk
+    $(LOCAL_DIR)/nad_apollo.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_apollo-user \
-    lineage_apollo-userdebug \
-    lineage_apollo-eng
+    nad_apollo-user \
+    nad_apollo-userdebug \
+    nad_apollo-eng
