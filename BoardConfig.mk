@@ -21,6 +21,9 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_apollo
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/apollo_defconfig
 
+# LED
+TARGET_LED_WHITE_ONLY := true
+
 # Inherit from xiaomi sm8250-common
 include device/xiaomi/sm8250-common/BoardConfigCommon.mk
 
