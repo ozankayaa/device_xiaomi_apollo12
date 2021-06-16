@@ -22,8 +22,9 @@ TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
 PRODUCT_SHIPPING_API_LEVEL := 29
-# Properties
-TARGET_VENDOR_PROP := $(LOCAL_PATH)/vendor.prop
+
+# Device properties
+include $(LOCAL_PATH)/device_prop.mk
 
 # Inherit from xiaomi sm8250-common
 $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
