@@ -26,6 +26,10 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 # Device properties
 include $(LOCAL_PATH)/device_prop.mk
 
+# Init scripts
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/init.apollo.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.apollo.rc
+
 # Inherit from xiaomi sm8250-common
 $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 
