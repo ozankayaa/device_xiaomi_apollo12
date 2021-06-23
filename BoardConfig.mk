@@ -18,6 +18,10 @@ TARGET_SCREEN_DENSITY := 440
 # HWUI
 HWUI_COMPILE_FOR_PERF := true
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_apollon
+TARGET_RECOVERY_DEVICE_MODULES := libinit_apollon
+
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/apollo_defconfig
 
