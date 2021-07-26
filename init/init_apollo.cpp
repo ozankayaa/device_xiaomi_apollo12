@@ -92,13 +92,13 @@ void vendor_load_properties() {
     property_override("ro.oem_unlock_supported", "0");
     if (product.find("std") != std::string::npos) {
         set_device_props(
-                "google/redfin/redfin:11/RQ3A.210705.001/7380771:user/release-keys",
-                "redfin-user 11 RQ3A.210705.001 7380771 release-key",
+                "google/redfin/redfin:11/RQ2A.210505.003/7255357:user/release-keys",
+                "redfin-user 11 RQ3A.210605.005 7349499 release-keys",
                 "Xiaomi", "apollo", "Xiaomi Mi 10T");
     } else if (product.find("pro") != std::string::npos) {
         set_device_props(
-                "google/redfin/redfin:11/RQ3A.210705.001/7380771:user/release-keys",
-		"redfin-user 11 RQ3A.210705.001 7380771 release-key",
+                "google/redfin/redfin:11/RQ2A.210505.003/7255357:user/release-keys",
+		"redfin-user 11 RQ3A.210605.005 7349499 release-keys",
 		"Xiaomi", "apollo", "Xiaomi Mi 10T Pro");
     }
 }
