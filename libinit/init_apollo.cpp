@@ -7,8 +7,8 @@
 #include <libinit_kona.h>
 
 static const variant_info_t apollocn_info = {
-    .hwc_value = "",
-    .sku_value = "CN",
+    .hwc_value = "CN",
+    .sku_value = "",
 
     .brand = "Redmi",
     .device = "apollo",
