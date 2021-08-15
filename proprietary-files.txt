@@ -480,14 +480,6 @@ vendor/firmware/cs35l41-dsp1-spk-prot.bin
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
-# NFC
-vendor/lib/vendor.nxp.hardware.nfc@1.0.so
-vendor/lib/vendor.nxp.hardware.nfc@1.1.so
-vendor/lib/vendor.nxp.hardware.nfc@2.0.so
-vendor/lib64/vendor.nxp.hardware.nfc@1.0.so
-vendor/lib64/vendor.nxp.hardware.nfc@1.1.so
-vendor/lib64/vendor.nxp.hardware.nfc@2.0.so
-
 # OMX
 vendor/lib/libAlacSwDec.so
 vendor/lib/libApeSwDec.so
