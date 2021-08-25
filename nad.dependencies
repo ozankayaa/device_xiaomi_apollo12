@@ -1,4 +1,3 @@
-
 [
   {
     "repository": "device_xiaomi_sm8250-common",
@@ -14,5 +13,11 @@
     "repository": "vendor_xiaomi_apollo",
     "target_path": "vendor/xiaomi/apollo",
     "branch": "11"
+  },
+  {
+    "remote":"gitlab",
+    "repository":"BayerischeMotorenWerke/android_vendor_miuicamera",
+    "target_path":"vendor/miuicamera",
+    "branch":"11"
   }
 ]
