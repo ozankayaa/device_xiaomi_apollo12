@@ -28,7 +28,6 @@ PRODUCT_PACKAGES += \
     CutoutRingServiceApollo
 
 # Properties
-TARGET_VENDOR_PROP := $(LOCAL_PATH)/system.prop
 TARGET_VENDOR_PROP := $(LOCAL_PATH)/vendor.prop
 
 # Inherit from xiaomi sm8250-common
@@ -36,6 +35,3 @@ $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/apollo/apollo-vendor.mk)
-
-# Get non-open-source specific aspects
-$(call inherit-product, vendor/miuicamera/config.mk)
