@@ -39,7 +39,7 @@ static const variant_info_t apollopro_info = {
     .brand = "Xiaomi",
     .device = "apollo",
     .marketname = "Mi 10T Pro",
-    .model = "M2007J3SG",
+    .model = "M2007J3SY",
     .build_fingerprint = "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys",
 
     .nfc = true,
