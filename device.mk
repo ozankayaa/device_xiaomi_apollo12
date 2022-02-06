@@ -34,6 +34,9 @@ PRODUCT_COPY_FILES += \
 # Properties
 TARGET_VENDOR_PROP := $(LOCAL_PATH)/vendor.prop
 
+PRODUCT_PACKAGES += \
+     init.safailnet.rc \
+
 # Inherit from xiaomi sm8250-common
 $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 
