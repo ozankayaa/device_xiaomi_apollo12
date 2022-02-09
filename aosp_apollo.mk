@@ -17,9 +17,9 @@ $(call inherit-product, vendor/aosp/common.mk)
 TARGET_USES_BLUR := true
 USE_PIXEL_CHARGING := true
 TARGET_BOOT_ANIMATION_RES := 1080
-USE_GAPPS ?= false
 USE_AOSP_CLOCK := true
 WITH_LAWNCHAIR := true
+WITH_GAPPS := false
 
 # Product
 PRODUCT_NAME := aosp_apollo
