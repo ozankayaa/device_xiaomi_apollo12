@@ -40,5 +40,8 @@
     <dimen name="physical_power_button_center_screen_location_y">1000px</dimen>
     <dimen name="physical_fingerprint_sensor_center_screen_location_y">1000px</dimen>
 
+    <!-- The padding of a notification icon on top to the start of the notification. Used for custom
+             views where the distance can't be measured -->
+        <dimen name="notification_icon_appear_padding">50dp</dimen> 
 
 </resources>
