@@ -9,13 +9,13 @@
     "repository": "gmw-project/android_kernel_xiaomi_sm8250",
     "target_path": "kernel/xiaomi/sm8250",
     "clone-depth": "1",
-    "branch": "arrow-12.0"
+    "branch": "arrow-12.1"
   },
   {
     "remote": "github",
-    "repository": "ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r428724",
-    "target_path": "prebuilts/clang/host/linux-x86/clang-r428724",
-    "branch": "arrow-11.0"
+    "repository": "AOSP-12/prebuilts_clang_host_linux-x86_clang-r445002",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-r445002",
+    "branch": "12"
   },
   {
     "repository": "vendor_xiaomi_apollo",
