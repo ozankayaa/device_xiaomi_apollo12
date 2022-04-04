@@ -20,6 +20,6 @@
   {
     "repository": "vendor_xiaomi_apollo",
     "target_path": "vendor/xiaomi/apollo",
-    "branch": "12"
+    "branch": "12.1"
   }
 ]
