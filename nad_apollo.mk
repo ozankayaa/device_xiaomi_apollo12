@@ -15,6 +15,7 @@ $(call inherit-product, device/xiaomi/apollo/device.mk)
 $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
 TARGET_USES_BLUR := true
+TARGET_SUPPORTS_QUICK_TAP := true
 USE_PIXEL_CHARGING := true
 NAD_BUILD_TYPE ?= UNOFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
