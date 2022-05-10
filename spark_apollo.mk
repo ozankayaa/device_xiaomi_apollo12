@@ -26,14 +26,12 @@ TARGET_SUPPORTS_NOW_PLAYING := true
 TARGET_BUILD_GRAPHENEOS_CAMERA := true
 
 
-
 # Product
 PRODUCT_NAME := spark_apollo
 PRODUCT_DEVICE := apollo
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi 10T/Pro
-PRODUCT_PRODUCT_PROPERTIES += \
-ro.spark.maintainer=Realizeyes
+
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi

@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_apollo.mk
+    $(LOCAL_DIR)/spark_apollo.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_apollo-user \
-    derp_apollo-userdebug \
-    derp_apollo-eng
+    spark_apollo-user \
+    spark_apollo-userdebug \
+    spark_apollo-eng
