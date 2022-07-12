@@ -12,12 +12,6 @@
     "branch": "arrow-12.1"
   },
   {
-    "remote": "github",
-    "repository": "AOSP-12/prebuilts_clang_host_linux-x86_clang-r445002",
-    "target_path": "prebuilts/clang/host/linux-x86/clang-r445002",
-    "branch": "12"
-  },
-  {
     "repository": "vendor_xiaomi_apollo",
     "target_path": "vendor/xiaomi/apollo",
     "branch": "12.1"
